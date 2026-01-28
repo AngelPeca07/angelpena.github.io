@@ -41,7 +41,7 @@ export default function Contact() {
             >
                 {/* BOTÓN EMAIL */}
                 <a
-                    href="mailto:angel@example.com"
+                    href="mailto:jose.angpc@gmail.com"
                     className="inline-flex items-center gap-3 px-8 py-4 bg-black text-white rounded-full text-lg hover:bg-gray-800 transition"
                 >
                     <Mail size={22} />
@@ -50,7 +50,7 @@ export default function Contact() {
 
                 {/* BOTÓN DESCARGAR CV */}
                 <a
-                    href="/Angel_Pena_CV.pdf"
+                    href="/CV_Jose_A.Pen_a_2026.pdf"
                     download
                     className="px-8 py-4 bg-gray-200 text-black rounded-full text-lg hover:bg-gray-300 transition"
                 >
