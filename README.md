@@ -49,10 +49,12 @@ http://localhost:3000
 Open Cypress UI
 ```bash
 npm run cy:open
-
+```
 Run Cypress headless (CI-style)
+```bash
 npm run cy:run
-
+```
 Run full E2E flow (server + tests)
+```bash
 npm run cy:run:e2e
 ```
