@@ -41,3 +41,18 @@ This approach keeps the tests **fast, stable, and meaningful**.
 ```bash
 npm install
 npm run dev
+The site will be available at:
+http://localhost:3000
+```
+
+## ▶️ Running Cypress tests
+Open Cypress UI
+```bash
+npm run cy:open
+
+Run Cypress headless (CI-style)
+npm run cy:run
+
+Run full E2E flow (server + tests)
+npm run cy:run:e2e
+```
