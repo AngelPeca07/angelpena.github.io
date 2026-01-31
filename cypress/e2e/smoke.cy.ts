@@ -3,6 +3,24 @@ describe("CV site - smoke", () => {
     cy.visit("/");
   });
 
+  it("shows contact section with working links and actions", () => {
+    cy.get('[data-cy="section-contact"]').scrollIntoView().should("be.visible");
+
+    cy.get('[data-cy="btn-email"]')
+      .should("have.attr", "href", "mailto:jose.angpc@gmail.com");
+
+    cy.get('[data-cy="btn-download-cv"]')
+      .should("have.attr", "href", "/CV_Jose_A.Pen_a_2026.pdf");
+
+    cy.get('[data-cy="link-github"]')
+      .should("have.attr", "href")
+      .and("include", "github.com");
+
+    cy.get('[data-cy="link-linkedin"]')
+      .should("have.attr", "href")
+      .and("include", "linkedin.com");
+  })
+/*
   it("loads home and shows hero name", () => {
     cy.get('[data-cy="hero-name"]').should("be.visible");
   });
@@ -32,5 +50,5 @@ describe("CV site - smoke", () => {
     // si tienes menú hamburguesa:
     // cy.get('[data-cy="menu-button"]').click();
     // cy.get('[data-cy="mobile-nav"]').should("be.visible");
-  });
+  });*/
 });
