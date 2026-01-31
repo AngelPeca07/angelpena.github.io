@@ -1,5 +1,7 @@
 # Personal CV – QA Automation Showcase
 
+[![Cypress E2E Smoke](https://github.com/AngelPeca07/angelpena.github.io/actions/workflows/cypress.yml/badge.svg)](https://github.com/AngelPeca07/angelpena.github.io/actions/workflows/cypress.yml)
+
 This repository contains my personal CV website built with **Next.js**, along with a **Cypress-based E2E smoke test suite** used to validate critical user paths and basic quality gates.
 
 The goal of this setup is to demonstrate **QA automation skills** applied with the right level of scope for a small, static web application.
