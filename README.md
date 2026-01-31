@@ -6,6 +6,8 @@ This repository contains my personal CV website built with **Next.js**, along wi
 
 The goal of this setup is to demonstrate **QA automation skills** applied with the right level of scope for a small, static web application.
 
+> Automated quality gate executed on every push via GitHub Actions.
+
 ---
 
 ## 🧪 QA Automation Overview
