@@ -7,6 +7,7 @@ export default function Contact() {
     return (
         <section
             id="contact"
+            data-cy="section-contact"
             className="max-w-3xl mx-auto px-6 py-24 text-center"
         >
             <motion.h2
@@ -42,6 +43,7 @@ export default function Contact() {
                 {/* BOTÓN EMAIL */}
                 <a
                     href="mailto:jose.angpc@gmail.com"
+                    data-cy="btn-email"
                     className="inline-flex items-center gap-3 px-8 py-4 bg-black text-white rounded-full text-lg hover:bg-gray-800 transition"
                 >
                     <Mail size={22} />
@@ -52,6 +54,7 @@ export default function Contact() {
                 <a
                     href="/CV_Jose_A.Pen_a_2026.pdf"
                     download
+                    data-cy="btn-download-cv"
                     className="px-8 py-4 bg-gray-200 text-black rounded-full text-lg hover:bg-gray-300 transition"
                 >
                     Descargar CV (PDF)
@@ -70,6 +73,8 @@ export default function Contact() {
                 <a
                     href="https://github.com/AngelPeca07"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    data-cy="link-github"
                     className="p-4 rounded-full border border-gray-300 hover:bg-gray-100 transition shadow-sm"
                 >
                     <Github size={24} />
@@ -79,6 +84,8 @@ export default function Contact() {
                 <a
                     href="https://www.linkedin.com/in/angel-pena-engineer"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    data-cy="link-linkedin"
                     className="p-4 rounded-full border border-gray-300 hover:bg-gray-100 transition shadow-sm"
                 >
                     <Linkedin size={24} />
